@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>2566509040</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\Debug\Obj\Driver_Timer2.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Init_GPIO.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Driver_Timer.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Driver_GPIO.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Driver_Timer2.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Driver_EEPROM.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Init_ADC.o</file>
+      <file>$PROJ_DIR$\Drivers\Init_GPIO.hpp</file>
+      <file>$PROJ_DIR$\Debug\Obj\Init_ADC.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Driver_UART.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Driver_UART.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Init_UART.o</file>
+      <file>$PROJ_DIR$\Drivers\Init_UART.hpp</file>
+      <file>$PROJ_DIR$\Drivers\Init_UART.cpp</file>
+      <file>$PROJ_DIR$\Debug\Obj\Driver_GPIO_pin.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Init_blinky_led.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Driver_ADC.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\Driver_Timer.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Driver_GPIO_pin.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Init_blinky_led.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Driver_EEPROM.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Driver_GPIO.pbi</file>
+      <file>$PROJ_DIR$\Drivers\Driver_GPIO_pin.cpp</file>
+      <file>$PROJ_DIR$\Debug\Obj\Init_GPIO.pbi</file>
+      <file>$PROJ_DIR$\Drivers\Driver_GPIO.cpp</file>
+      <file>$PROJ_DIR$\Debug\Obj\Init_UART.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\Driver_ADC.pbi</file>
+      <file>$PROJ_DIR$\Drivers\Driver_EEPROM.cpp</file>
+      <file>$PROJ_DIR$\Drivers\Driver_UART.cpp</file>
+      <file>$PROJ_DIR$\Drivers\Driver_ADC.cpp</file>
+      <file>$PROJ_DIR$\headers\type.h</file>
+      <file>$PROJ_DIR$\Drivers\Driver_Timer.cpp</file>
+      <file>$PROJ_DIR$\Drivers\Init_GPIO.cpp</file>
+      <file>$PROJ_DIR$\main.cpp</file>
+      <file>$PROJ_DIR$\Drivers\Driver_Timer2.cpp</file>
+      <file>$PROJ_DIR$\Drivers\Driver_GPIO_pin.hpp</file>
+      <file>$PROJ_DIR$\Debug\Obj\STM8L051F3_Drivers.pbd</file>
+      <file>$PROJ_DIR$\Drivers\Driver_UART.hpp</file>
+      <file>$PROJ_DIR$\StdPeriph_Driver\stm8l15x_conf.h</file>
+      <file>$PROJ_DIR$\Drivers\Driver_GPIO.hpp</file>
+      <file>$PROJ_DIR$\StdPeriph_Driver\stm8l15x_flash.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Drivers\Driver_Timer.hpp</file>
+      <file>$PROJ_DIR$\Drivers\Driver_Timer2.hpp</file>
+      <file>$PROJ_DIR$\StdPeriph_Driver\stm8l15x.h</file>
+      <file>$PROJ_DIR$\StdPeriph_Driver\stm8l15x_dma.h</file>
+      <file>$TOOLKIT_DIR$\inc\io_macros.h</file>
+      <file>$PROJ_DIR$\Drivers\Driver_EEPROM.hpp</file>
+      <file>$PROJ_DIR$\Debug\Exe\templproj.out</file>
+      <file>$PROJ_DIR$\Drivers\Init_ADC.cpp</file>
+      <file>$PROJ_DIR$\Drivers\Driver_ADC.hpp</file>
+      <file>$PROJ_DIR$\Drivers\Driver_Interrupt.hpp</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$TOOLKIT_DIR$\config\lnkstm8l051f3.icf</file>
+      <file>$PROJ_DIR$\Drivers\Init_ADC.hpp</file>
+      <file>$PROJ_DIR$\Drivers\Driver_DMA.hpp</file>
+      <file>$PROJ_DIR$\Drivers\Init_blinky_led.cpp</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Drivers\Blinky_Led.hpp</file>
+      <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
+      <file>$PROJ_DIR$\Drivers\Init_blinky_led.hpp</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8smn.a</file>
+      <file>$TOOLKIT_DIR$\inc\iostm8l051f3.h</file>
+      <file>$PROJ_DIR$\headers\Global_defines.hpp</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 48</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\Init_UART.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 11</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 30 12 37 62 46 55 51 63</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\Driver_GPIO_pin.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 14</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 18</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 35 62 46 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 35 62 46 30</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\Driver_GPIO.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 3</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 39 62 46 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 39 62 46 30</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\Driver_EEPROM.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 20</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 47 30 44 38 45 40 52</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 30 44 38 45 40 52</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\Driver_UART.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 9</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 10</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 37 30 62 46 55 51 52</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37 30 62 46 55 51 52</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\Driver_ADC.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 26</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 50 30 62 46 55 51 52</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 50 30 62 46 55 51 52</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\Driver_Timer.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 2</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 17</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 42 30 62 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 30 62 46</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\Init_GPIO.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 1</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 23</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 7 35 62 46 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 7 35 62 46 30</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\Driver_Timer2.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 0</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 4</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 43 30 62 46</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 43 30 62 46</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\templproj.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 53 16 5 3 14 2 0 9 1 11 57 61 59</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\Init_ADC.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 6</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 54 50 30 62 46 55 51 43 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54 50 30 62 46 55 51 43 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Drivers\Init_blinky_led.cpp</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 15</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 58 42 30 62 46 35 51 60</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58 42 30 62 46 35 51 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Drivers\Init_ADC.cpp</name>
+      <tool>ICCSTM8</tool>
+    </forcedrebuild>
+    <forcedrebuild>
+      <name>$PROJ_DIR$\Drivers\Init_blinky_led.cpp</name>
+      <tool>ICCSTM8</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
